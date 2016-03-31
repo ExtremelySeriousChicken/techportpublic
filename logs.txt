@@ -1,0 +1,956 @@
+2016-02-28T07:40:41.979068+00:00 heroku[api]: Enable Logplex by wijaya@umich.edu
+2016-02-28T07:40:41.979068+00:00 heroku[api]: Release v2 created by wijaya@umich.edu
+2016-02-28T07:42:16.616197+00:00 heroku[api]: Set LANG, RACK_ENV, RAILS_ENV, RAILS_SERVE_STATIC_FILES, SECRET_KEY_BASE config vars by wijaya@umich.edu
+2016-02-28T07:42:16.616197+00:00 heroku[api]: Release v3 created by wijaya@umich.edu
+2016-02-28T07:42:17.243425+00:00 heroku[api]: Attach DATABASE resource by wijaya@umich.edu
+2016-02-28T07:42:17.243450+00:00 heroku[api]: Release v4 created by wijaya@umich.edu
+2016-02-28T07:42:17.594651+00:00 heroku[api]: Scale to web=1 by wijaya@umich.edu
+2016-02-28T07:42:17.684655+00:00 heroku[api]: Deploy 8d7c8b7 by wijaya@umich.edu
+2016-02-28T07:42:17.684655+00:00 heroku[api]: Release v5 created by wijaya@umich.edu
+2016-02-28T07:42:18.002323+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T07:42:18.002329+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T07:42:19.769488+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T07:42:21.588739+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T07:42:21.588761+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T07:42:21.588762+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T07:42:21.588762+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T07:42:21.588763+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T07:42:21.588763+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T07:42:23.216015+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:25238
+2016-02-28T07:42:23.216185+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T07:42:23.221498+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T07:42:23.223936+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T07:42:23.493979+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T07:43:41.745062+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_ORANGE resource by wijaya@umich.edu
+2016-02-28T07:43:41.745117+00:00 heroku[api]: Release v6 created by wijaya@umich.edu
+2016-02-28T07:43:41.894907+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T07:43:41.894126+00:00 heroku[web.1]: Restarting
+2016-02-28T07:43:43.596756+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T07:43:45.180328+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T07:43:45.409830+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T07:43:45.409810+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T07:43:45.409839+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T07:43:45.409832+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T07:43:45.409841+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T07:43:45.409840+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T07:43:46.125477+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T07:43:46.240485+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 07:43:46 +0000 ===
+2016-02-28T07:43:46.240492+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T07:43:46.939432+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T07:43:46.918327+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:19884
+2016-02-28T07:43:46.918523+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T07:43:46.926738+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T07:43:46.929757+00:00 app[web.1]: [3] - Worker 1 (pid: 20) booted, phase: 0
+2016-02-28T07:43:47.453166+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T07:44:00.025939+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by wijaya@umich.edu
+2016-02-28T07:44:02.000592+00:00 heroku[run.8943]: Starting process with command `bundle exec rake db:migrate`
+2016-02-28T07:44:01.981319+00:00 heroku[run.8943]: Awaiting client
+2016-02-28T07:44:02.283985+00:00 heroku[run.8943]: State changed from starting to up
+2016-02-28T07:44:05.952655+00:00 heroku[run.8943]: Process exited with status 0
+2016-02-28T07:44:05.971995+00:00 heroku[run.8943]: State changed from up to complete
+2016-02-28T07:44:07.557092+00:00 app[web.1]: Started GET "/order/" for 131.215.159.28 at 2016-02-28 07:44:07 +0000
+2016-02-28T07:44:07.623901+00:00 app[web.1]:   [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+2016-02-28T07:44:07.631859+00:00 heroku[router]: at=info method=GET path="/order/" host=techport.herokuapp.com request_id=17b7f365-9261-4f53-8fc6-47b8ccb9aa5d fwd="131.215.159.28" dyno=web.1 connect=1ms service=81ms status=404 bytes=405
+2016-02-28T07:44:07.612960+00:00 app[web.1]: Processing by OrderController#index as */*
+2016-02-28T07:44:07.630404+00:00 app[web.1]: Filter chain halted as :authenticate_user rendered or redirected
+2016-02-28T07:44:07.630503+00:00 app[web.1]: Completed 404 Not Found in 17ms (Views: 0.3ms | ActiveRecord: 5.9ms)
+2016-02-28T07:46:43.639729+00:00 heroku[api]: Starting process with command `bash` by wijaya@umich.edu
+2016-02-28T07:46:45.819688+00:00 heroku[run.1538]: Starting process with command `bash`
+2016-02-28T07:46:45.802142+00:00 heroku[run.1538]: Awaiting client
+2016-02-28T07:46:46.089529+00:00 heroku[run.1538]: State changed from starting to up
+2016-02-28T07:47:29.789278+00:00 heroku[run.1538]: Client connection closed. Sending SIGHUP to all processes
+2016-02-28T07:47:30.425405+00:00 heroku[run.1538]: State changed from up to complete
+2016-02-28T07:47:30.411500+00:00 heroku[run.1538]: Process exited with status 129
+2016-02-28T07:48:32.385211+00:00 heroku[api]: Deploy 5223c98 by wijaya@umich.edu
+2016-02-28T07:48:32.385211+00:00 heroku[api]: Release v7 created by wijaya@umich.edu
+2016-02-28T07:48:32.540571+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T07:48:32.540578+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T07:48:32.814844+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T07:48:32.814063+00:00 heroku[web.1]: Restarting
+2016-02-28T07:48:34.448985+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T07:48:36.144492+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T07:48:36.144513+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T07:48:36.144514+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T07:48:36.144515+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T07:48:36.144516+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T07:48:36.144516+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T07:48:37.092410+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T07:48:37.607747+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:38847
+2016-02-28T07:48:37.607903+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T07:48:37.612003+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T07:48:37.612857+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T07:48:37.815331+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T07:48:38.364523+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T07:48:38.482262+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 07:48:38 +0000 ===
+2016-02-28T07:48:38.482310+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T07:48:39.337422+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T07:48:39.675134+00:00 heroku[router]: at=info method=GET path="/order/" host=techport.herokuapp.com request_id=f344207a-ba41-49e3-8224-dd84091b8dad fwd="131.215.159.28" dyno=web.1 connect=0ms service=65ms status=200 bytes=457
+2016-02-28T07:48:39.668925+00:00 app[web.1]:   [1m[36mOrder Load (1.4ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+2016-02-28T07:48:39.614712+00:00 app[web.1]: Started GET "/order/" for 131.215.159.28 at 2016-02-28 07:48:39 +0000
+2016-02-28T07:48:39.674163+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 4.3ms)
+2016-02-28T07:48:39.659058+00:00 app[web.1]: Processing by OrderController#index as */*
+2016-02-28T07:49:18.237949+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by wijaya@umich.edu
+2016-02-28T07:49:21.542950+00:00 heroku[run.3598]: Awaiting client
+2016-02-28T07:49:21.562753+00:00 heroku[run.3598]: Starting process with command `bundle exec rake db:migrate`
+2016-02-28T07:49:21.956793+00:00 heroku[run.3598]: State changed from starting to up
+2016-02-28T07:49:25.570119+00:00 heroku[run.3598]: State changed from up to complete
+2016-02-28T07:49:25.560247+00:00 heroku[run.3598]: Process exited with status 0
+2016-02-28T07:49:28.148807+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by wijaya@umich.edu
+2016-02-28T07:49:30.101759+00:00 heroku[run.4880]: Awaiting client
+2016-02-28T07:49:30.441281+00:00 heroku[run.4880]: State changed from starting to up
+2016-02-28T07:50:00.103185+00:00 heroku[run.4880]: Error R13 (Attach error) -> Failed to attach to process
+2016-02-28T07:50:00.705722+00:00 heroku[run.4880]: Process exited with status 128
+2016-02-28T07:50:00.716861+00:00 heroku[run.4880]: State changed from up to complete
+2016-02-28T07:50:25.865370+00:00 heroku[api]: Starting process with command `bundle exec rake db:seed` by wijaya@umich.edu
+2016-02-28T07:50:28.514499+00:00 heroku[run.4293]: Awaiting client
+2016-02-28T07:50:28.579106+00:00 heroku[run.4293]: Starting process with command `bundle exec rake db:seed`
+2016-02-28T07:50:28.886775+00:00 heroku[run.4293]: State changed from starting to up
+2016-02-28T07:50:40.734904+00:00 heroku[run.4293]: State changed from up to complete
+2016-02-28T07:50:40.724013+00:00 heroku[run.4293]: Process exited with status 0
+2016-02-28T07:51:01.726015+00:00 app[web.1]: Processing by OrderController#index as */*
+2016-02-28T07:51:01.723959+00:00 app[web.1]: Started GET "/order/" for 131.215.159.28 at 2016-02-28 07:51:01 +0000
+2016-02-28T07:51:01.738479+00:00 app[web.1]:   [1m[35mOrder Load (11.9ms)[0m  SELECT "orders".* FROM "orders"
+2016-02-28T07:51:02.210898+00:00 heroku[router]: at=info method=GET path="/order/" host=techport.herokuapp.com request_id=0cb216a2-4f14-4af7-991b-15ac4bb6c1c5 fwd="131.215.159.28" dyno=web.1 connect=0ms service=488ms status=200 bytes=346065
+2016-02-28T07:51:02.184801+00:00 app[web.1]: Completed 200 OK in 459ms (Views: 398.5ms | ActiveRecord: 15.4ms)
+2016-02-28T07:54:34.595667+00:00 app[web.1]:   [1m[36mOrder Load (14.5ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T07:54:34.516375+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 07:54:34 +0000
+2016-02-28T07:54:34.563592+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T07:54:35.006498+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=5e0176a1-17c9-4c13-83ad-833105858d3b fwd="206.117.40.12" dyno=web.1 connect=1ms service=486ms status=200 bytes=346065
+2016-02-28T07:54:34.969742+00:00 app[web.1]: Completed 200 OK in 406ms (Views: 341.3ms | ActiveRecord: 22.1ms)
+2016-02-28T07:55:24.871083+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T07:55:24.869068+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 07:55:24 +0000
+2016-02-28T07:55:24.879904+00:00 app[web.1]:   [1m[35mOrder Load (7.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T07:55:25.353149+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=bcc8c222-52e7-48ed-ad3f-55149fd1554d fwd="206.117.40.12" dyno=web.1 connect=1ms service=478ms status=304 bytes=357
+2016-02-28T07:55:25.344203+00:00 app[web.1]: Completed 200 OK in 473ms (Views: 448.0ms | ActiveRecord: 7.9ms)
+2016-02-28T07:55:53.857293+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T07:55:53.851473+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 07:55:53 +0000
+2016-02-28T07:55:53.862842+00:00 app[web.1]:   [1m[36mOrder Load (5.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T07:55:54.201019+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7daa2339-1fde-435f-8f7e-a0dd630c420b fwd="206.117.40.12" dyno=web.1 connect=1ms service=344ms status=304 bytes=357
+2016-02-28T07:55:54.191469+00:00 app[web.1]: Completed 200 OK in 334ms (Views: 311.8ms | ActiveRecord: 5.0ms)
+2016-02-28T08:03:50.980789+00:00 app[web.1]: Started POST "/test_receive" for 52.90.102.245 at 2016-02-28 08:03:50 +0000
+2016-02-28T08:03:51.210740+00:00 app[web.1]: Sent message to +17348348801
+2016-02-28T08:03:51.210744+00:00 app[web.1]: Chocholate
+2016-02-28T08:03:51.210745+00:00 app[web.1]: 20
+2016-02-28T08:03:51.210746+00:00 app[web.1]: dark
+2016-02-28T08:03:51.211082+00:00 app[web.1]: Completed 200 OK in 228ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+2016-02-28T08:03:50.983330+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T08:03:50.983773+00:00 app[web.1]: 3
+2016-02-28T08:03:50.983381+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SMdf8250407fba9074ce7a96713c2a3829", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"48105", "SmsSid"=>"SMdf8250407fba9074ce7a96713c2a3829", "FromState"=>"MI", "SmsStatus"=>"received", "FromCity"=>"ANN ARBOR", "Body"=>"Chocholate 20 dark", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SMdf8250407fba9074ce7a96713c2a3829", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+17348348801", "ApiVersion"=>"2010-04-01"}
+2016-02-28T08:03:51.213551+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=7e1ff56d-5264-4ef4-adc0-d9810188ed3d fwd="52.90.102.245" dyno=web.1 connect=1ms service=237ms status=200 bytes=491
+2016-02-28T08:09:26.770496+00:00 heroku[api]: Deploy e12c9ef by wijaya@umich.edu
+2016-02-28T08:09:26.770496+00:00 heroku[api]: Release v8 created by wijaya@umich.edu
+2016-02-28T08:09:26.944719+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T08:09:26.944729+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T08:09:26.894702+00:00 heroku[web.1]: Restarting
+2016-02-28T08:09:26.895230+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T08:09:28.834347+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T08:09:29.409444+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T08:09:30.104640+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T08:09:30.194820+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 08:09:30 +0000 ===
+2016-02-28T08:09:30.194824+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T08:09:30.738244+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T08:09:30.738247+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T08:09:30.738246+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T08:09:30.738248+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T08:09:30.738248+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T08:09:30.738177+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T08:09:30.798351+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T08:09:32.164517+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:24560
+2016-02-28T08:09:32.164675+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T08:09:32.169079+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T08:09:32.170449+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T08:09:32.336409+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T08:09:34.218554+00:00 app[web.1]: Started POST "/test_receive" for 52.90.147.205 at 2016-02-28 08:09:34 +0000
+2016-02-28T08:09:34.466184+00:00 app[web.1]: +17348348801
+2016-02-28T08:09:34.466168+00:00 app[web.1]: Sent message to +17348348801
+2016-02-28T08:09:34.466185+00:00 app[web.1]: Chocholate
+2016-02-28T08:09:34.466186+00:00 app[web.1]: 20
+2016-02-28T08:09:34.466187+00:00 app[web.1]: dark
+2016-02-28T08:09:34.466187+00:00 app[web.1]: Chocholate 20 dark
+2016-02-28T08:09:34.273175+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T08:09:34.273232+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM413f4a19472c7dc21836ae67168d3e5f", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"48105", "SmsSid"=>"SM413f4a19472c7dc21836ae67168d3e5f", "FromState"=>"MI", "SmsStatus"=>"received", "FromCity"=>"ANN ARBOR", "Body"=>"Chocholate 20 dark", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM413f4a19472c7dc21836ae67168d3e5f", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+17348348801", "ApiVersion"=>"2010-04-01"}
+2016-02-28T08:09:34.493102+00:00 app[web.1]:   [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+2016-02-28T08:09:34.280363+00:00 app[web.1]: 3
+2016-02-28T08:09:34.503844+00:00 app[web.1]:   [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+2016-02-28T08:09:34.505851+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=03f18854-4431-40a8-9877-7cd216d07614 fwd="52.90.147.205" dyno=web.1 connect=0ms service=297ms status=200 bytes=491
+2016-02-28T08:09:34.501131+00:00 app[web.1]:   [1m[35mSQL (1.5ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["phone_number", "+17348348801"], ["message", "Chocholate 20 dark"], ["item", "Chocholate"], ["time_left", 20], ["description", "dark"], ["created_at", "2016-02-28 08:09:34.493326"], ["updated_at", "2016-02-28 08:09:34.493326"]]
+2016-02-28T08:09:34.504444+00:00 app[web.1]: Completed 200 OK in 231ms (Views: 0.2ms | ActiveRecord: 12.2ms)
+2016-02-28T08:12:17.628216+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:12:17 +0000
+2016-02-28T08:12:17.705615+00:00 app[web.1]:   [1m[36mOrder Load (7.4ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T08:12:17.681305+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:12:18.111597+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=e91a5665-fb25-4d3e-a66c-cb35d0ead6e4 fwd="206.117.40.12" dyno=web.1 connect=1ms service=486ms status=304 bytes=357
+2016-02-28T08:12:18.108758+00:00 app[web.1]: Completed 200 OK in 427ms (Views: 356.3ms | ActiveRecord: 21.4ms)
+2016-02-28T08:13:14.808662+00:00 heroku[api]: Starting process with command `bundle exec rake db:seed` by wijaya@umich.edu
+2016-02-28T08:13:16.796095+00:00 heroku[run.4261]: Awaiting client
+2016-02-28T08:13:16.836272+00:00 heroku[run.4261]: Starting process with command `bundle exec rake db:seed`
+2016-02-28T08:13:17.278689+00:00 heroku[run.4261]: State changed from starting to up
+2016-02-28T08:13:23.841469+00:00 heroku[run.4261]: State changed from up to complete
+2016-02-28T08:13:23.831731+00:00 heroku[run.4261]: Process exited with status 1
+2016-02-28T08:14:20.929660+00:00 heroku[api]: Release v9 created by wijaya@umich.edu
+2016-02-28T08:14:21.029684+00:00 heroku[web.1]: Restarting
+2016-02-28T08:14:21.082900+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T08:14:21.082907+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T08:14:21.030368+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T08:14:20.929606+00:00 heroku[api]: Deploy 5afde4b by wijaya@umich.edu
+2016-02-28T08:14:23.074737+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T08:14:24.164338+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T08:14:24.164352+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T08:14:24.164353+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T08:14:24.164358+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T08:14:24.164358+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T08:14:24.164359+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T08:14:24.140376+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T08:14:25.328707+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 08:14:25 +0000 ===
+2016-02-28T08:14:25.233625+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T08:14:25.328738+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T08:14:25.351443+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:32632
+2016-02-28T08:14:25.351593+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T08:14:25.354691+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T08:14:25.355528+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T08:14:25.743841+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T08:14:26.005888+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T08:14:39.032632+00:00 heroku[api]: Starting process with command `bundle exec rake db:seed` by wijaya@umich.edu
+2016-02-28T08:14:43.175665+00:00 heroku[run.5340]: Awaiting client
+2016-02-28T08:14:43.229458+00:00 heroku[run.5340]: Starting process with command `bundle exec rake db:seed`
+2016-02-28T08:14:43.542080+00:00 heroku[run.5340]: State changed from starting to up
+2016-02-28T08:14:49.380221+00:00 heroku[run.5340]: State changed from up to complete
+2016-02-28T08:14:49.377545+00:00 heroku[run.5340]: Process exited with status 0
+2016-02-28T08:16:23.733902+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:16:23 +0000
+2016-02-28T08:16:23.793337+00:00 app[web.1]:   [1m[36mOrder Load (1.5ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T08:16:23.790172+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=89fbf428-407b-4a90-9d40-bb1f4887f91b fwd="206.117.40.12" dyno=web.1 connect=1ms service=84ms status=200 bytes=2190
+2016-02-28T08:16:23.776594+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:16:23.812106+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 3.8ms | ActiveRecord: 8.2ms)
+2016-02-28T08:16:46.867506+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=6fb3913f-8842-45d7-a086-b8a4ed39dded fwd="206.117.40.12" dyno=web.1 connect=1ms service=9ms status=304 bytes=357
+2016-02-28T08:16:46.882223+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:16:46 +0000
+2016-02-28T08:16:46.886149+00:00 app[web.1]:   [1m[35mOrder Load (1.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T08:16:46.884169+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:16:46.888878+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 1.2ms)
+2016-02-28T08:17:03.968986+00:00 app[web.1]: Started POST "/test_receive" for 54.152.193.52 at 2016-02-28 08:17:03 +0000
+2016-02-28T08:17:04.011103+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T08:17:04.011172+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM3b05fcbfb8b26c49910bc9dff606d1c9", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SM3b05fcbfb8b26c49910bc9dff606d1c9", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Car 60 good one pls", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM3b05fcbfb8b26c49910bc9dff606d1c9", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T08:17:04.017634+00:00 app[web.1]: 5
+2016-02-28T08:17:04.248783+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T08:17:04.248798+00:00 app[web.1]: +18582618198
+2016-02-28T08:17:04.248799+00:00 app[web.1]: Car
+2016-02-28T08:17:04.248803+00:00 app[web.1]: 60
+2016-02-28T08:17:04.248804+00:00 app[web.1]: good one pls
+2016-02-28T08:17:04.248805+00:00 app[web.1]: Car 60 good one pls
+2016-02-28T08:17:04.270029+00:00 app[web.1]:   [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+2016-02-28T08:17:04.279158+00:00 app[web.1]:   [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+2016-02-28T08:17:04.276910+00:00 app[web.1]:   [1m[35mSQL (1.3ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["phone_number", "+18582618198"], ["message", "Car 60 good one pls"], ["item", "Car"], ["time_left", 60], ["description", "good one pls"], ["created_at", "2016-02-28 08:17:04.270197"], ["updated_at", "2016-02-28 08:17:04.270197"]]
+2016-02-28T08:17:04.279703+00:00 app[web.1]: Completed 200 OK in 268ms (Views: 0.2ms | ActiveRecord: 11.0ms)
+2016-02-28T08:17:04.260073+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=a1fb0592-a7b9-4aae-a04c-e7283a55c1c7 fwd="54.152.193.52" dyno=web.1 connect=1ms service=320ms status=200 bytes=540
+2016-02-28T08:17:30.321239+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7a0760fc-4f6e-4483-b904-6ccdec1d4668 fwd="206.117.40.12" dyno=web.1 connect=1ms service=10ms status=200 bytes=2190
+2016-02-28T08:17:30.335408+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:17:30 +0000
+2016-02-28T08:17:30.339464+00:00 app[web.1]:   [1m[36mOrder Load (1.4ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T08:17:30.337366+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:17:30.342067+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.4ms)
+2016-02-28T08:18:48.249991+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:18:48 +0000
+2016-02-28T08:18:48.253634+00:00 app[web.1]:   [1m[35mOrder Load (1.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T08:18:48.251741+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:18:48.256254+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 1.2ms)
+2016-02-28T08:18:48.239881+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cec09923-274a-4b53-96e0-6f2ac42537b7 fwd="206.117.40.12" dyno=web.1 connect=0ms service=12ms status=304 bytes=357
+2016-02-28T08:20:07.276907+00:00 heroku[api]: Deploy a5bb42c by wijaya@umich.edu
+2016-02-28T08:20:07.276907+00:00 heroku[api]: Release v10 created by wijaya@umich.edu
+2016-02-28T08:20:07.425233+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T08:20:07.425239+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T08:20:07.409395+00:00 heroku[web.1]: Restarting
+2016-02-28T08:20:07.410059+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T08:20:08.572801+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T08:20:08.924717+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 08:20:08 +0000 ===
+2016-02-28T08:20:08.924731+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T08:20:08.857926+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T08:20:09.074035+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T08:20:09.471985+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T08:20:10.871481+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T08:20:10.871498+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T08:20:10.871518+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T08:20:10.871499+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T08:20:10.871540+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T08:20:10.871567+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T08:20:12.539400+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:51223
+2016-02-28T08:20:12.539578+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T08:20:12.543260+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T08:20:12.544534+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T08:20:12.758252+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T08:20:28.526122+00:00 app[web.1]: Started POST "/test_receive" for 52.90.147.205 at 2016-02-28 08:20:28 +0000
+2016-02-28T08:20:28.573132+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T08:20:28.573262+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM94afe58efbf37b8c377408eae1d3b62b", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"48105", "SmsSid"=>"SM94afe58efbf37b8c377408eae1d3b62b", "FromState"=>"MI", "SmsStatus"=>"received", "FromCity"=>"ANN ARBOR", "Body"=>"Chocholate 20 dark", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM94afe58efbf37b8c377408eae1d3b62b", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+17348348801", "ApiVersion"=>"2010-04-01"}
+2016-02-28T08:20:28.583671+00:00 app[web.1]: 3
+2016-02-28T08:20:28.786688+00:00 app[web.1]: Sent message to +17348348801
+2016-02-28T08:20:28.786704+00:00 app[web.1]: +17348348801
+2016-02-28T08:20:28.786706+00:00 app[web.1]: Chocholate
+2016-02-28T08:20:28.786707+00:00 app[web.1]: 20
+2016-02-28T08:20:28.786708+00:00 app[web.1]: dark
+2016-02-28T08:20:28.786708+00:00 app[web.1]: Chocholate 20 dark
+2016-02-28T08:20:28.811151+00:00 app[web.1]:   [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+2016-02-28T08:20:28.821920+00:00 app[web.1]:   [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+2016-02-28T08:20:28.830341+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=223f4229-54c8-46b0-a492-c30793cee0b0 fwd="52.90.147.205" dyno=web.1 connect=0ms service=307ms status=200 bytes=491
+2016-02-28T08:20:28.819448+00:00 app[web.1]:   [1m[35mSQL (1.3ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["phone_number", "+17348348801"], ["message", "Chocholate 20 dark"], ["item", "Chocholate"], ["time_left", 20], ["description", "dark"], ["status", 0], ["created_at", "2016-02-28 08:20:28.811409"], ["updated_at", "2016-02-28 08:20:28.811409"]]
+2016-02-28T08:20:28.822735+00:00 app[web.1]: Completed 200 OK in 249ms (Views: 0.3ms | ActiveRecord: 10.8ms)
+2016-02-28T08:20:31.038467+00:00 app[web.1]: Started POST "/test_receive" for 54.175.57.197 at 2016-02-28 08:20:31 +0000
+2016-02-28T08:20:31.079037+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T08:20:31.079120+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM8934340019ffbfa07a7176799c061743", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SM8934340019ffbfa07a7176799c061743", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg 3 dont break", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM8934340019ffbfa07a7176799c061743", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T08:20:31.085769+00:00 app[web.1]: 4
+2016-02-28T08:20:31.327999+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T08:20:31.328004+00:00 app[web.1]: +18582618198
+2016-02-28T08:20:31.328006+00:00 app[web.1]: Egg
+2016-02-28T08:20:31.328006+00:00 app[web.1]: 3
+2016-02-28T08:20:31.328007+00:00 app[web.1]: dont break
+2016-02-28T08:20:31.328008+00:00 app[web.1]: Egg 3 dont break
+2016-02-28T08:20:31.360743+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=afedafd3-64dc-4759-bfc5-24d88a85124c fwd="54.175.57.197" dyno=web.1 connect=14ms service=328ms status=200 bytes=491
+2016-02-28T08:20:31.348112+00:00 app[web.1]:   [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+2016-02-28T08:20:31.356391+00:00 app[web.1]:   [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+2016-02-28T08:20:31.354497+00:00 app[web.1]:   [1m[35mSQL (1.1ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["phone_number", "+18582618198"], ["message", "Egg 3 dont break"], ["item", "Egg"], ["time_left", 3], ["description", "dont break"], ["status", 0], ["created_at", "2016-02-28 08:20:31.348390"], ["updated_at", "2016-02-28 08:20:31.348390"]]
+2016-02-28T08:20:31.356931+00:00 app[web.1]: Completed 200 OK in 278ms (Views: 0.2ms | ActiveRecord: 8.7ms)
+2016-02-28T08:21:13.779426+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=139e9ede-474f-4c70-a7f5-8cba8d422119 fwd="206.117.40.12" dyno=web.1 connect=1ms service=13ms status=200 bytes=2806
+2016-02-28T08:21:13.761755+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:21:13 +0000
+2016-02-28T08:21:13.767210+00:00 app[web.1]:   [1m[35mOrder Load (1.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T08:21:13.764085+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:21:13.772672+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.1ms)
+2016-02-28T08:39:34.831545+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 08:39:34 +0000
+2016-02-28T08:39:34.838534+00:00 app[web.1]:   [1m[35mOrder Load (1.4ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T08:39:34.846332+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=bf9990ff-6bce-40fa-9896-41695775f29b fwd="206.117.40.12" dyno=web.1 connect=1ms service=13ms status=304 bytes=357
+2016-02-28T08:39:34.834698+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T08:39:34.842362+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 3.1ms | ActiveRecord: 1.4ms)
+2016-02-28T09:13:14.090177+00:00 heroku[web.1]: Idling
+2016-02-28T09:13:14.090882+00:00 heroku[web.1]: State changed from up to down
+2016-02-28T09:13:14.096053+00:00 heroku[web.1]: State changed from down to starting
+2016-02-28T09:13:15.673222+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T09:13:16.724026+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T09:13:17.315792+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T09:13:17.315812+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T09:13:17.315813+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T09:13:17.315815+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T09:13:17.315839+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T09:13:17.315858+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T09:13:17.505407+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T09:13:17.575554+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 09:13:17 +0000 ===
+2016-02-28T09:13:17.575560+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T09:13:18.164540+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T09:13:18.632862+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T09:13:18.628706+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:29429
+2016-02-28T09:13:18.628882+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T09:13:18.634071+00:00 app[web.1]: [3] - Worker 1 (pid: 11) booted, phase: 0
+2016-02-28T09:13:18.983659+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T09:44:28.666139+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=3864b7c3-868c-4f86-b8fd-24751d74d31b fwd="131.215.159.28" dyno=web.1 connect=0ms service=78ms status=200 bytes=2806
+2016-02-28T09:44:28.606739+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:44:28 +0000
+2016-02-28T09:44:28.660389+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T09:44:28.644607+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:44:28.679788+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 4.9ms | ActiveRecord: 6.2ms)
+2016-02-28T09:49:29.426209+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=5a96d4c2-0ae3-4af8-87e2-97f0e6b27a7a fwd="131.215.159.28" dyno=web.1 connect=1ms service=77ms status=304 bytes=357
+2016-02-28T09:49:29.372196+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:49:29 +0000
+2016-02-28T09:49:29.424556+00:00 app[web.1]:   [1m[36mOrder Load (1.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T09:49:29.408983+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:49:29.443732+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 4.7ms | ActiveRecord: 6.3ms)
+2016-02-28T09:51:01.303714+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cf5014bd-6b9f-433b-93a0-2b71f67bfced fwd="131.215.159.28" dyno=web.1 connect=0ms service=9ms status=200 bytes=2806
+2016-02-28T09:51:01.314188+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:51:01 +0000
+2016-02-28T09:51:01.317430+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T09:51:01.315769+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:51:01.321080+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.9ms)
+2016-02-28T09:52:10.076793+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=4827cebb-f09a-41f1-82ab-9a86caabb19d fwd="131.215.159.28" dyno=web.1 connect=3ms service=8ms status=304 bytes=357
+2016-02-28T09:52:10.090188+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:52:10.095310+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.0ms)
+2016-02-28T09:52:10.088453+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:52:10 +0000
+2016-02-28T09:52:10.091972+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T09:54:04.929640+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7be8626f-64ee-477b-a36a-68a466a401cd fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=2806
+2016-02-28T09:54:04.941949+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:54:04 +0000
+2016-02-28T09:54:04.945015+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T09:54:04.943410+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:54:04.948143+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.9ms)
+2016-02-28T09:54:48.675955+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=0d93d45b-ec39-4e10-b724-0e8b86d2d5eb fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T09:54:48.687546+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:54:48.692463+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+2016-02-28T09:54:48.685920+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:54:48 +0000
+2016-02-28T09:54:48.689178+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T09:58:28.978972+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=f7758e07-a006-40f3-8036-f2070bfb980e fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=2806
+2016-02-28T09:58:28.990530+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:58:28 +0000
+2016-02-28T09:58:28.993615+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM
+ "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T09:58:28.991974+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:58:28.997091+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T09:59:41.486929+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=e4d89ce6-ebd8-4fd5-b5c8-e65ed05a81cf fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=304 bytes=357
+2016-02-28T09:59:41.497592+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 09:59:41 +0000
+2016-02-28T09:59:41.500481+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T09:59:41.498949+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T09:59:41.503942+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T10:02:04.254559+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=da54e8e9-dba5-4e02-8eff-259ddc4b9f12 fwd="131.215.159.28" dyno=web.1 connect=2ms service=9ms status=200 bytes=2806
+2016-02-28T10:02:04.267762+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:02:04.264631+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:02:04 +0000
+2016-02-28T10:02:04.266146+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:02:04.270872+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.9ms)
+2016-02-28T10:06:26.027767+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=511a5b11-29b6-4528-9f19-58ec8e776bad fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T10:06:26.034511+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:06:26 +0000
+2016-02-28T10:06:26.037605+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:06:26.036009+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:06:26.040943+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T10:12:03.324536+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=61989469-b6c1-49b8-ab9f-d1fd28cbf6ef fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=200 bytes=2806
+2016-02-28T10:12:03.323729+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:12:03.329455+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 1.2ms)
+2016-02-28T10:12:03.322223+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:12:03 +0000
+2016-02-28T10:12:03.325684+00:00 app[web.1]:   [1m[36mOrder Load (1.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:12:18.858161+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b34a65bf-92b9-4e94-8272-1b444fe19134 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T10:12:18.868499+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:12:18 +0000
+2016-02-28T10:12:18.871541+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:12:18.869898+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:12:18.875166+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.0ms)
+2016-02-28T10:17:15.461448+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=ad247b4c-8a55-4174-904e-e4943c7e766c fwd="206.117.40.12" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T10:17:15.474069+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:17:15.479262+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.9ms)
+2016-02-28T10:17:15.472577+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:17:15 +0000
+2016-02-28T10:17:15.475555+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:18:02.438064+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=52006307-8d49-4903-9082-747e2119afd3 fwd="206.117.40.12" dyno=web.1 connect=0ms service=9ms status=200 bytes=2806
+2016-02-28T10:18:02.448731+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:18:02 +0000
+2016-02-28T10:18:02.451675+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:18:02.450109+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:18:02.455349+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.8ms)
+2016-02-28T10:18:35.592630+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=ac761f8e-a1a9-42d5-80a9-d6c507647a30 fwd="206.117.40.12" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T10:18:35.603735+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:18:35 +0000
+2016-02-28T10:18:35.606818+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:18:35.605193+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:18:35.610472+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.8ms)
+2016-02-28T10:30:55.131327+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:30:55 +0000
+2016-02-28T10:30:55.134364+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:30:55.300283+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:30:55 +0000
+2016-02-28T10:30:55.303781+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:30:55.132868+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:30:55.138273+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.8ms)
+2016-02-28T10:30:55.302001+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:30:55.308046+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.9ms)
+2016-02-28T10:30:55.120237+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=d0d2c226-e0ce-4d9f-aaf7-3018f105f98f fwd="206.117.40.12" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T10:30:55.290454+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=627e5858-2181-4e78-a717-87a32b946cfe fwd="206.117.40.12" dyno=web.1 connect=0ms service=10ms status=200 bytes=2806
+2016-02-28T10:30:59.193807+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:30:59 +0000
+2016-02-28T10:30:59.197110+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:30:59.201377+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.9ms)
+2016-02-28T10:30:59.195450+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:30:59.183529+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b9501acc-65d0-48df-ad60-08ff4a02b378 fwd="206.117.40.12" dyno=web.1 connect=0ms service=9ms status=304 bytes=357
+2016-02-28T10:31:11.382859+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=e742da1a-d2fc-4c9c-b009-32747c62af83 fwd="206.117.40.12" dyno=web.1 connect=0ms service=9ms status=304 bytes=357
+2016-02-28T10:31:11.393291+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:31:11 +0000
+2016-02-28T10:31:11.529134+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:31:11 +0000
+2016-02-28T10:31:11.396760+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:31:11.532220+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:31:11.394955+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:31:11.400983+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.9ms)
+2016-02-28T10:31:11.530583+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:31:11.536566+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.8ms)
+2016-02-28T10:31:11.518539+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=e86b9ae6-f322-4005-b769-88129a9b76ce fwd="206.117.40.12" dyno=web.1 connect=0ms service=9ms status=304 bytes=357
+2016-02-28T10:31:27.314568+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=22c100b8-e292-4fa0-9b34-9b187c8b03d8 fwd="206.117.40.12" dyno=web.1 connect=0ms service=19ms status=304 bytes=357
+2016-02-28T10:31:27.315052+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:31:27 +0000
+2016-02-28T10:31:27.318118+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:31:27.316563+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:31:27.332544+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.8ms)
+2016-02-28T10:31:31.706053+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=13fa6150-6a8d-40d8-9bb3-5f3c664df956 fwd="206.117.40.12" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T10:31:31.831981+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b03dc4b7-7961-4105-8f95-1d31fc2ff39f fwd="206.117.40.12" dyno=web.1 connect=0ms service=18ms status=304 bytes=357
+2016-02-28T10:31:31.717198+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:31:31 +0000
+2016-02-28T10:31:31.720748+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:31:31.833355+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:31:31 +0000
+2016-02-28T10:31:31.836476+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:31:31.718846+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:31:31.724113+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.0ms)
+2016-02-28T10:31:31.834720+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:31:31.849755+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.8ms)
+2016-02-28T10:35:30.529050+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=51bb985e-4f39-47be-8a3e-2934bc8163e6 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=2806
+2016-02-28T10:35:30.533923+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:35:30 +0000
+2016-02-28T10:35:30.537025+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:35:30.535489+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:35:30.540199+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.0ms)
+2016-02-28T10:36:25.069902+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:36:25.074665+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+2016-02-28T10:36:25.062784+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=a26002ce-260c-440d-a87f-c2111a4a2ce1 fwd="131.215.159.28" dyno=web.1 connect=0ms service=7ms status=304 bytes=357
+2016-02-28T10:36:25.068497+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:36:25 +0000
+2016-02-28T10:36:25.071361+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:41:36.029472+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b4fd7940-568d-4b59-8051-0c83d18e27d1 fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=304 bytes=357
+2016-02-28T10:41:36.026001+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:41:36.031188+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T10:41:36.024617+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:41:36 +0000
+2016-02-28T10:41:36.027613+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:43:18.449858+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=974fd401-b486-4b39-bacb-fdc6bd512310 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=2806
+2016-02-28T10:43:18.461963+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:43:18.466938+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+2016-02-28T10:43:18.460394+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:43:18 +0000
+2016-02-28T10:43:18.463737+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:44:15.637345+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=e6fe9095-9cba-4582-8120-32e9f60a8fb1 fwd="206.117.40.12" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T10:44:15.647003+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:44:15 +0000
+2016-02-28T10:44:15.649843+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:44:15.648329+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:44:15.653063+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+2016-02-28T10:44:31.177428+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7cf6ec9b-136d-4833-8174-3e4ccda2546a fwd="206.117.40.12" dyno=web.1 connect=2ms service=15ms status=200 bytes=2806
+2016-02-28T10:44:31.181710+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 10:44:31 +0000
+2016-02-28T10:44:31.187989+00:00 app[web.1]:   [1m[36mOrder Load (1.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:44:31.185359+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:44:31.192783+0
+0:00 app[web.1]: Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 1.1ms)
+2016-02-28T10:50:19.680755+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:50:19.679273+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:50:19 +0000
+2016-02-28T10:50:19.685497+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.8ms)
+2016-02-28T10:50:19.682374+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:50:19.669771+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=f32be613-ffa6-4301-9f2c-9ee69f25e6ad fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T10:53:25.005767+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:53:25.012801+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 1.0ms)
+2016-02-28T10:53:25.004211+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:53:25 +0000
+2016-02-28T10:53:25.007428+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:53:24.994072+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=3adfc232-4018-4890-b187-42e15175e2f7 fwd="131.215.159.28" dyno=web.1 connect=0ms service=10ms status=200 bytes=2806
+2016-02-28T10:55:46.063194+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=13e710be-8059-4c2b-90b8-4429ec12f92e fwd="131.215.159.28" dyno=web.1 connect=1ms service=11ms status=304 bytes=357
+2016-02-28T10:55:46.043733+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:55:46 +0000
+2016-02-28T10:55:46.047052+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T10:55:46.045377+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:55:46.051945+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.9ms)
+2016-02-28T10:58:20.618556+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=95024ad0-0287-4ba5-9740-2190f948d9bb fwd="131.215.159.28" dyno=web.1 connect=2ms service=12ms status=200 bytes=2806
+2016-02-28T10:58:20.620584+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 10:58:20 +0000
+2016-02-28T10:58:20.624104+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T10:58:20.622281+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T10:58:20.629252+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+2016-02-28T11:01:15.460410+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=60e3b86f-65fa-45c7-9297-202193473db9 fwd="206.117.40.12" dyno=web.1 connect=0ms service=7ms status=304 bytes=357
+2016-02-28T11:01:15.469647+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 11:01:15 +0000
+2016-02-28T11:01:15.472491+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:01:15.471037+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:01:15.475576+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.8ms)
+2016-02-28T11:27:13.226189+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=2760de90-dbd5-41dd-b2f1-d8fc3f037705 fwd="131.215.159.28" dyno=web.1 connect=0ms service=21ms status=304 bytes=357
+2016-02-28T11:27:13.212253+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:27:13 +0000
+2016-02-28T11:27:13.216255+00:00 app[web.1]:   [1m[36mOrder Load (1.4ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:27:13.213990+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:27:13.230112+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 1.4ms)
+2016-02-28T11:27:33.825968+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c3556996-17d9-4e90-adda-81803548637b fwd="131.215.159.28" dyno=web.1 connect=0ms service=9ms status=200 bytes=2806
+2016-02-28T11:27:33.823449+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:27:33 +0000
+2016-02-28T11:27:33.826723+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:27:33.825107+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:27:33.831059+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.9ms)
+2016-02-28T11:27:53.442677+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=00bdc161-ada0-45be-b070-551bc357b4a3 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T11:27:53.441545+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:27:53 +0000
+2016-02-28T11:27:53.444644+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:27:53.443066+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:27:53.447577+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.9ms)
+2016-02-28T11:40:08.559173+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=0005116d-0c0c-474d-b8ee-51685493d66d fwd="206.117.40.12" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:40:08.558387+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 11:40:08 +0000
+2016-02-28T11:40:08.561367+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:40:08.559934+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:40:08.564293+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+2016-02-28T11:43:28.934897+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=5e7fe868-1c52-46e8-8bd8-cb7c9249c131 fwd="131.215.159.28" dyno=web.1 connect=1ms service=12ms status=200 bytes=2806
+2016-02-28T11:43:28.941288+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:43:28.948395+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.1ms | ActiveRecord: 1.0ms)
+2016-02-28T11:43:28.939239+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:43:28 +0000
+2016-02-28T11:43:28.943431+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:43:32.718047+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=fb2447ea-fd6f-4b7a-8713-8cc574adb0c1 fwd="131.215.159.28" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:43:32.726509+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:43:32 +0000
+2016-02-28T11:43:32.729422+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:43:32.727966+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:43:32.732445+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+2016-02-28T11:43:51.700012+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=94fac233-3430-4d7e-a0ab-45eeaa197d4c fwd="131.215.159.28" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:43:51.708358+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:43:51 +0000
+2016-02-28T11:43:51.711171+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:43:51.709722+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:43:51.714234+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+2016-02-28T11:43:52.561691+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=823491aa-4a14-481a-b655-5e2383562b13 fwd="131.215.159.28" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:43:52.569999+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:43:52 +0000
+2016-02-28T11:43:52.573103+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:43:52.571588+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:43:52.576001+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.9ms)
+2016-02-28T11:44:05.741835+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=6d4865e1-8e16-433b-8ba8-78aa332eb083 fwd="131.215.159.28" dyno=web.1 connect=1ms service=10ms status=304 bytes=357
+2016-02-28T11:44:05.748552+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:44:05 +0000
+2016-02-28T11:44:05.751581+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:44:05.750016+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:44:05.754417+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.9ms)
+2016-02-28T11:44:34.839721+00:00 app[web.1]: Started POST "/test_receive" for 52.90.96.68 at 2016-02-28 11:44:34 +0000
+2016-02-28T11:44:35.057668+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T11:44:35.062142+00:00 app[web.1]:   [1m[35mSQL (1.0ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["phone_number", "+18582618198"], ["message", "Egg 3 dont break"], ["item", "Egg"], ["time_left", 3], ["description", "dont break"], ["status", 0], ["created_at", "2016-02-28 11:44:35.059320"], ["updated_at", "2016-02-28 11:44:35.059320"]]
+2016-02-28T11:44:35.064588+00:00 app[web.1]: Completed 200 OK in 222ms (Views: 0.1ms | ActiveRecord: 3.3ms)
+2016-02-28T11:44:34.842035+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T11:44:34.842086+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM69bdbc8d050447625b84c5bafdbcd36c", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SM69bdbc8d050447625b84c5bafdbcd36c", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg 3 dont break", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM69bdbc8d050447625b84c5bafdbcd36c", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T11:44:34.842463+00:00 app[web.1]: 4
+2016-02-28T11:44:35.057679+00:00 app[web.1]: +18582618198
+2016-02-28T11:44:35.057692+00:00 app[web.1]: 3
+2016-02-28T11:44:35.057687+00:00 app[web.1]: Egg
+2016-02-28T11:44:35.059164+00:00 app[web.1]:   [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+2016-02-28T11:44:35.057693+00:00 app[web.1]: dont break
+2016-02-28T11:44:35.064246+00:00 app[web.1]:   [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+2016-02-28T11:44:35.057693+00:00 app[web.1]: Egg 3 dont break
+2016-02-28T11:44:35.055301+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=001f0aa1-ffd6-48c9-a186-3ea2301eda61 fwd="52.90.96.68" dyno=web.1 connect=0ms service=229ms status=200 bytes=491
+2016-02-28T11:44:46.732082+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=fc203590-9826-4872-8ffe-aa2e478dd3d6 fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=200 bytes=3112
+2016-02-28T11:44:46.739626+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:44:46 +0000
+2016-02-28T11:44:46.742671+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:44:46.741140+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:44:46.745922+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+2016-02-28T11:44:58.723439+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=12f4c28f-e427-4272-971e-7cd8345c7986 fwd="131.215.159.28" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:44:58.731089+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:44:58 +0000
+2016-02-28T11:44:58.733911+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:44:58.732483+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:44:58.737147+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+2016-02-28T11:56:40.684566+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=d615f03c-9fda-4a50-bff9-e3193f2cde0c fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=304 bytes=357
+2016-02-28T11:56:40.691948+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:56:40 +0000
+2016-02-28T11:56:40.694991+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:56:40.693464+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:56:40.698290+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+2016-02-28T11:56:42.563684+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b7473145-6b32-46af-a9b7-0ceb6c847c07 fwd="131.215.159.28" dyno=web.1 connect=1ms service=9ms status=200 bytes=3112
+2016-02-28T11:56:42.571868+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:56:42.576732+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T11:56:42.570433+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:56:42 +0000
+2016-02-28T11:56:42.573350+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:56:43.573679+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=807b69e4-13e1-4d1a-aacd-e4c2eef7d60f fwd="131.215.159.28" dyno=web.1 connect=2ms service=18ms status=304 bytes=357
+2016-02-28T11:56:43.571954+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:56:43 +0000
+2016-02-28T11:56:43.580160+00:00 app[web.1]:   [1m[35mOrder Load (2.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:56:43.575285+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:56:43.587512+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 2.0ms)
+2016-02-28T11:56:43.943877+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=11a4cefc-c694-4363-9f2c-273fe5358aff fwd="131.215.159.28" dyno=web.1 connect=1ms service=8ms status=304 bytes=357
+2016-02-28T11:56:43.9
+51589+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:56:43 +0000
+2016-02-28T11:56:43.954329+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:56:43.952912+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:56:43.957462+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms)
+2016-02-28T11:57:26.496333+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7da05253-8c98-4439-990c-f5687fadaf5b fwd="206.117.40.12" dyno=web.1 connect=0ms service=8ms status=200 bytes=3112
+2016-02-28T11:57:26.503741+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 11:57:26 +0000
+2016-02-28T11:57:26.506602+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:57:26.505122+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:57:26.509909+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+2016-02-28T11:57:30.232896+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=6f136f3a-5050-4693-ae02-7ac302214f58 fwd="206.117.40.12" dyno=web.1 connect=1ms service=7ms status=304 bytes=357
+2016-02-28T11:57:30.240527+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 11:57:30 +0000
+2016-02-28T11:57:30.243388+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T11:57:30.241915+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:57:30.246712+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.8ms)
+2016-02-28T11:57:48.891727+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T11:57:48.896318+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+2016-02-28T11:57:48.890024+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 11:57:48 +0000
+2016-02-28T11:57:48.893143+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T11:57:48.889097+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=5af1049b-3263-436e-943d-8fa5fe7fbdc2 fwd="131.215.159.28" dyno=web.1 connect=0ms service=7ms status=304 bytes=357
+2016-02-28T12:01:24.424938+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:01:24 +0000
+2016-02-28T12:01:24.428515+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:01:24.426776+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:01:24.433562+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+2016-02-28T12:01:24.419256+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=f6c512f4-aa4c-41b8-8620-b89ef9890540 fwd="206.117.40.12" dyno=web.1 connect=1ms service=11ms status=304 bytes=357
+2016-02-28T12:01:57.727670+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=11268f7d-c358-42d8-ba18-5a2598217672 fwd="54.172.113.141" dyno=web.1 connect=2ms service=185ms status=200 bytes=540
+2016-02-28T12:01:57.547010+00:00 app[web.1]: Started POST "/test_receive" for 54.172.113.141 at 2016-02-28 12:01:57 +0000
+2016-02-28T12:01:57.721420+00:00 app[web.1]: Sent message to +18313343788
+2016-02-28T12:01:57.725062+00:00 app[web.1]:   [1m[35mSQL (0.8ms)[0m  INSERT INTO "orders" ("phone_number", "message", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["phone_number", "+18313343788"], ["message", "Water"], ["status", 0], ["created_at", "2016-02-28 12:01:57.722786"], ["updated_at", "2016-02-28 12:01:57.722786"]]
+2016-02-28T12:01:57.727020+00:00 app[web.1]: Completed 200 OK in 178ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+2016-02-28T12:01:57.548629+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T12:01:57.548685+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SMab2faced6454dd1eb20d7984b3251c5b", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"95076", "SmsSid"=>"SMab2faced6454dd1eb20d7984b3251c5b", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA CRUZ", "Body"=>"Water", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SMab2faced6454dd1eb20d7984b3251c5b", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18313343788", "ApiVersion"=>"2010-04-01"}
+2016-02-28T12:01:57.548903+00:00 app[web.1]: 1
+2016-02-28T12:01:57.721441+00:00 app[web.1]: +18313343788
+2016-02-28T12:01:57.721444+00:00 app[web.1]: 
+2016-02-28T12:01:57.721443+00:00 app[web.1]: 
+2016-02-28T12:01:57.721443+00:00 app[web.1]: 
+2016-02-28T12:01:57.721445+00:00 app[web.1]: Water
+2016-02-28T12:01:57.722708+00:00 app[web.1]:   [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+2016-02-28T12:01:57.726740+00:00 app[web.1]:   [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+2016-02-28T12:07:24.682423+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c7b3eb79-5f2f-4608-93fb-c4be81637261 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=3401
+2016-02-28T12:07:24.690456+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:07:24 +0000
+2016-02-28T12:07:24.693609+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:07:24.692064+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:07:24.697155+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.9ms)
+2016-02-28T12:09:23.510130+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=ec4cce9c-29c2-4f64-9ef7-7eb480663628 fwd="206.117.40.12" dyno=web.1 connect=1ms service=8ms status=200 bytes=3401
+2016-02-28T12:09:23.519964+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:09:23.524909+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.8ms)
+2016-02-28T12:09:23.518617+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:09:23 +0000
+2016-02-28T12:09:23.521391+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:09:47.845205+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=8746eef5-1d19-4de1-ad8d-22b3db58240c fwd="131.215.159.28" dyno=web.1 connect=0ms service=9ms status=304 bytes=357
+2016-02-28T12:09:47.848160+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:09:47.853575+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.9ms)
+2016-02-28T12:09:47.846542+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:09:47 +0000
+2016-02-28T12:09:47.849950+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:12:08.987556+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=1c2a97d8-49c3-4133-a10e-6346cbb727f6 fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=200 bytes=3401
+2016-02-28T12:12:08.995969+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:12:08 +0000
+2016-02-28T12:12:08.998831+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:12:08.997360+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:12:09.002406+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.8ms)
+2016-02-28T12:12:49.880258+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c308ac09-af73-47a2-b5d5-6a2901c28ac1 fwd="206.117.40.12" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T12:12:49.883323+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:12:49 +0000
+2016-02-28T12:12:49.886420+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:12:49.884754+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:12:49.890259+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.9ms)
+2016-02-28T12:17:24.055032+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=72196696-c505-4ed6-9327-06bed17a5319 fwd="206.117.40.12" dyno=web.1 connect=1ms service=13ms status=200 bytes=3401
+2016-02-28T12:17:24.059189+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:17:24.065160+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.2ms)
+2016-02-28T12:17:24.057450+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:17:24 +0000
+2016-02-28T12:17:24.061069+00:00 app[web.1]:   [1m[36mOrder Load (1.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:18:20.700274+00:00 app[web.1]: Started POST "/test_receive" for 52.90.163.79 at 2016-02-28 12:18:20 +0000
+2016-02-28T12:18:20.936530+00:00 app[web.1]: Sent message to +18313343788
+2016-02-28T12:18:20.936547+00:00 app[web.1]: +18313343788
+2016-02-28T12:18:20.936551+00:00 app[web.1]: dog
+2016-02-28T12:18:20.936552+00:00 app[web.1]: 72
+2016-02-28T12:18:20.936552+00:00 app[web.1]: woof
+2016-02-28T12:18:20.936553+00:00 app[web.1]: dog 72 woof
+2016-02-28T12:18:20.938112+00:00 app[web.1]:   [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+2016-02-28T12:18:20.942971+00:00 app[web.1]:   [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+2016-02-28T12:18:20.704528+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T12:18:20.943299+00:00 app[web.1]: Completed 200 OK in 239ms (Views: 0.1ms | ActiveRecord: 3.1ms)
+2016-02-28T12:18:20.704608+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SMc2cda3b28443b442510b8697478c9a69", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"95076", "SmsSid"=>"SMc2cda3b28443b442510b8697478c9a69", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"SANTA CRUZ", "Body"=>"dog 72 woof", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SMc2cda3b28443b442510b8697478c9a69", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18313343788", "ApiVersion"=>"2010-04-01"}
+2016-02-28T12:18:20.941216+00:00 app[web.1]:   [1m[35mSQL (0.9ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["phone_number", "+18313343788"], ["message", "dog 72 woof"], ["item", "dog"], ["time_left", 72], ["description", "woof"], ["status", 0], ["created_at", "2016-02-28 12:18:20.938276"], ["updated_at", "2016-02-28 12:18:20.938276"]]
+2016-02-28T12:18:20.705072+00:00 app[web.1]: 3
+2016-02-28T12:18:20.931474+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=afcab55e-4ea4-4533-9085-0524328cd4a3 fwd="52.90.163.79" dyno=web.1 connect=1ms service=250ms status=200 bytes=491
+2016-02-28T12:18:27.798818+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c23b0b87-dbf9-4d32-befd-9a14d47b9a87 fwd="206.117.40.12" dyno=web.1 connect=0ms service=18ms status=200 bytes=3698
+2016-02-28T12:18:27.795475+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:18:27 +0000
+2016-02-28T12:18:27.803469+00:00 app[web.1]:   [1m[35mOrder Load (5.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:18:27.797278+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:18:27.811739+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 5.2ms)
+2016-02-28T12:19:01.879008+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cca1113b-20a7-4610-932e-2cff9a6fbfed fwd="206.117.40.12" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T12:19:01.885507+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:19:01 +0000
+2016-02-28T12:19:01.888534+00:00 app[web.1]:   [1m[36mOrder Load (1.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:19:01.886865+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:19:01.892371+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.1ms)
+2016-02-28T12:19:22.091526+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T12:19:22.338189+00:00 app[web.1]:   [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "orders" ("phone_number", "message", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["phone_number", "+18582618198"], ["message", "Egg"], ["status", 0], ["created_at", "2016-02-28 12:19:22.336635"], ["updated_at", "2016-02-28 12:19:22.336635"]]
+2016-02-28T12:19:22.340427+00:00 app[web.1]: Completed 200 OK in 249ms (Views: 0.1ms | ActiveRecord: 3.1ms)
+2016-02-28T12:19:22.089968+00:00 app[web.1]: Started POST "/test_receive" for 52.90.119.128 at 2016-02-28 12:19:22 +0000
+2016-02-28T12:19:22.340131+00:00 app[web.1]:   [1m[35m (1.6ms)[0m  COMMIT
+2016-02-28T12:19:22.091568+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SMffdce6b96c90274cbeced91b4b5c337d", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SMffdce6b96c90274cbeced91b4b5c337d", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SMffdce6b96c90274cbeced91b4b5c337d", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T12:19:22.091802+00:00 app[web.1]: 1
+2016-02-28T12:19:22.335398+00:00 app[web.1]: Egg
+2016-02-28T12:19:22.335375+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T12:19:22.335386+00:00 app[web.1]: +18582618198
+2016-02-28T12:19:22.335391+00:00 app[web.1]: 
+2016-02-28T12:19:22.336554+00:00 app[web.1]:   [1m[35m (0.7ms)[0m  BEGIN
+2016-02-28T12:19:22.335393+00:00 app[web.1]: 
+2016-02-28T12:19:22.335395+00:00 app[web.1]: 
+2016-02-28T12:19:22.326841+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=bff93d4d-da6d-4685-938b-b5c501e1a820 fwd="52.90.119.128" dyno=web.1 connect=1ms service=255ms status=200 bytes=540
+2016-02-28T12:20:17.766379+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=aaa5206e-8c09-4bcf-a8f9-2dae35528089 fwd="206.117.40.12" dyno=web.1 connect=1ms service=12ms status=200 bytes=3985
+2016-02-28T12:20:17.757041+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:20:17.762908+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.8ms)
+2016-02-28T12:20:17.755586+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:20:17 +0000
+2016-02-28T12:20:17.758586+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:20:18.854682+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=bb9d1c15-0feb-476c-83bf-5132c59b3fd7 fwd="
+206.117.40.12" dyno=web.1 connect=1ms service=10ms status=304 bytes=357
+2016-02-28T12:20:18.846726+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:20:18 +0000
+2016-02-28T12:20:18.849694+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:20:18.848018+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:20:18.853970+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 1.0ms)
+2016-02-28T12:21:11.458326+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=0f5b108c-9028-4f4a-87fa-3661cb85ecda fwd="131.215.159.28" dyno=web.1 connect=0ms service=13ms status=200 bytes=3985
+2016-02-28T12:21:11.436239+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:21:11 +0000
+2016-02-28T12:21:11.443289+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:21:11.441773+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:21:11.447887+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.9ms)
+2016-02-28T12:22:31.404583+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=87459fa1-4658-4ddf-8db5-c429a8cd1468 fwd="131.215.159.28" dyno=web.1 connect=0ms service=11ms status=304 bytes=357
+2016-02-28T12:22:31.384336+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:22:31 +0000
+2016-02-28T12:22:31.387709+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:22:31.385931+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:22:31.394684+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.9ms)
+2016-02-28T12:27:57.891707+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c798ac79-cb47-49ec-ae42-e066a058a2d4 fwd="131.215.159.28" dyno=web.1 connect=0ms service=9ms status=200 bytes=3985
+2016-02-28T12:27:57.898444+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:27:57.904195+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.8ms)
+2016-02-28T12:27:57.896979+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:27:57 +0000
+2016-02-28T12:27:57.899900+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:29:31.369754+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=88d63f76-0250-441d-bd5b-40e69b58ff27 fwd="131.215.159.28" dyno=web.1 connect=1ms service=13ms status=304 bytes=357
+2016-02-28T12:29:31.373105+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:29:31.381685+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.0ms)
+2016-02-28T12:29:31.371198+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:29:31 +0000
+2016-02-28T12:29:31.375055+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:30:10.337442+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=03721ba3-775c-400a-a3da-2f1e61557c2e fwd="131.215.159.28" dyno=web.1 connect=1ms service=13ms status=200 bytes=3985
+2016-02-28T12:30:10.340831+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:30:10 +0000
+2016-02-28T12:30:10.343785+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:30:10.342277+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:30:10.348239+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.9ms)
+2016-02-28T12:35:23.244063+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cbb502c1-f928-4fba-9859-79e3c3e04c06 fwd="206.117.40.12" dyno=web.1 connect=1ms service=12ms status=304 bytes=357
+2016-02-28T12:35:23.249103+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:35:23.250826+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:35:23.247275+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:35:23 +0000
+2016-02-28T12:35:23.256831+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.9ms)
+2016-02-28T12:35:50.529088+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:35:50 +0000
+2016-02-28T12:35:50.532302+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:35:50.530715+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:35:50.536617+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.9ms)
+2016-02-28T12:35:50.524287+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cac0abf8-66a4-4b8a-8b1b-fba33dcbbaf2 fwd="206.117.40.12" dyno=web.1 connect=1ms service=10ms status=200 bytes=3985
+2016-02-28T12:40:57.108326+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=20002f11-2f60-4dcc-ad25-4c3461ac24f5 fwd="206.117.40.12" dyno=web.1 connect=1ms service=13ms status=304 bytes=357
+2016-02-28T12:40:57.110933+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:40:57.118915+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.0ms)
+2016-02-28T12:40:57.109355+00:00 app[web.1]: Started GET "/order/get/" for 206.117.40.12 at 2016-02-28 12:40:57 +0000
+2016-02-28T12:40:57.112741+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:41:02.086901+00:00 heroku[router]: at=info method=GET path="/order/destroy/" host=techport.herokuapp.com request_id=0761a109-01ae-4749-86e3-a59811e1e12f fwd="206.117.40.12" dyno=web.1 connect=1ms service=4ms status=404 bytes=1789
+2016-02-28T12:41:02.096813+00:00 app[web.1]: Started GET "/order/destroy/" for 206.117.40.12 at 2016-02-28 12:41:02 +0000
+2016-02-28T12:41:02.098428+00:00 app[web.1]: 
+2016-02-28T12:41:02.098438+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/order/destroy"):
+2016-02-28T12:41:02.098443+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+2016-02-28T12:41:02.098439+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2016-02-28T12:41:02.098440+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2016-02-28T12:41:02.098442+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2016-02-28T12:41:02.098444+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+2016-02-28T12:41:02.098446+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+2016-02-28T12:41:02.098441+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+2016-02-28T12:41:02.098451+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/configuration.rb:221:in `call'
+2016-02-28T12:41:02.098442+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+2016-02-28T12:41:02.098444+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+2016-02-28T12:41:02.098445+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2016-02-28T12:41:02.098449+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+2016-02-28T12:41:02.098447+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2016-02-28T12:41:02.098448+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+2016-02-28T12:41:02.098453+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/server.rb:271:in `block in run'
+2016-02-28T12:41:02.098451+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+2016-02-28T12:41:02.098454+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/thread_pool.rb:111:in `call'
+2016-02-28T12:41:02.098452+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/server.rb:561:in `handle_request'
+2016-02-28T12:41:02.098455+00:00 app[web.1]: 
+2016-02-28T12:41:02.098447+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+2016-02-28T12:41:02.098455+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+2016-02-28T12:41:02.098449+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2016-02-28T12:41:02.098450+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+2016-02-28T12:41:02.098456+00:00 app[web.1]: 
+2016-02-28T12:41:02.098453+00:00 app[web.1]:   vendor/bundle/ruby/2.2.0/gems/puma-3.0.2/lib/puma/server.rb:406:in `process_client'
+2016-02-28T12:53:39.150700+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=c0ea3299-986d-43ba-a70c-9a442047277c fwd="131.215.159.28" dyno=web.1 connect=0ms service=8ms status=304 bytes=357
+2016-02-28T12:53:39.153990+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:53:39.159861+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.9ms)
+2016-02-28T12:53:39.152374+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:53:39 +0000
+2016-02-28T12:53:39.155556+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T12:57:11.136056+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=52854196-7d1e-40f7-9484-fc8036e5df11 fwd="131.215.159.28" dyno=web.1 connect=0ms service=12ms status=200 bytes=3985
+2016-02-28T12:57:11.115078+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 12:57:11 +0000
+2016-02-28T12:57:11.118406+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T12:57:11.116688+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T12:57:11.123986+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.0ms)
+2016-02-28T13:04:09.939673+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:04:09.946956+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.9ms)
+2016-02-28T13:04:09.938024+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:04:09 +0000
+2016-02-28T13:04:09.941274+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:04:09.928064+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=8ffacfa2-e1a1-4bfd-821a-59a5254e73ce fwd="131.215.159.28" dyno=web.1 connect=1ms service=11ms status=304 bytes=357
+2016-02-28T13:07:40.985939+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=3e71ceb3-7b3e-4d53-9374-00d090810efb fwd="131.215.159.28" dyno=web.1 connect=1ms service=10ms status=200 bytes=3985
+2016-02-28T13:07:40.979802+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:07:40 +0000
+2016-02-28T13:07:40.982949+00:00 app[web.1]:   [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:07:40.981305+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:07:40.987646+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.0ms)
+2016-02-28T13:08:26.532990+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=92086741-752a-4538-bb1c-0e87be01cb47 fwd="131.215.159.28" dyno=web.1 connect=1ms service=10ms status=304 bytes=357
+2016-02-28T13:08:26.538112+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:08:26 +0000
+2016-02-28T13:08:26.541438+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:08:26.539829+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:08:26.545835+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+2016-02-28T13:31:41.561532+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=30f93cfb-b9cd-47e7-af72-43d6a47f26fa fwd="131.215.159.28" dyno=web.1 connect=1ms service=14ms status=200 bytes=3985
+2016-02-28T13:31:41.547838+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:31:41 +0000
+2016-02-28T13:31:41.551138+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:31:41.549645+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:31:41.558668+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.9ms)
+2016-02-28T13:32:18.107436+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=91d8fc55-7f5c-4e7e-aa10-f5eaa9181272 fwd="131.215.159.28" dyno=web.1 connect=1ms service=16ms status=304 bytes=357
+2016-02-28T13:32:18.091285+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:32:18 +0000
+2016-02-28T13:32:18.094392+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:32:18.092627+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:32:18.103758+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+2016-02-28T13:33:11.870273+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=cc17e319-fd1d-477a-9e45-a4a881d5eaf8 fwd="131.215.159.28" dyno=web.1 connect=1ms service=12ms status=304 bytes=357
+2016-02-28T13:33:11.858574+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:33:11 +0000
+2016-02-28T13:33:11.861789+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:33:11.860317+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:33:11.868097+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.8ms)
+2016-02-28T13:33:41.331707+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=180d5029-68a4-40fd-9b06-fc797e604b9b fwd="131.215.159.28" dyno=web.1 connect=1ms service=13ms status=304 bytes=357
+2016-02-28T13:33:41.318164
++00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:33:41 +0000
+2016-02-28T13:33:41.322104+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:33:41.329265+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.9ms)
+2016-02-28T13:33:41.320055+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:34:51.441636+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=3b2cf3b4-f11a-497d-a303-0cddec3824f4 fwd="131.215.159.28" dyno=web.1 connect=0ms service=9ms status=304 bytes=357
+2016-02-28T13:34:51.447646+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:34:51 +0000
+2016-02-28T13:34:51.450587+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:34:51.448987+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:34:51.455427+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.9ms)
+2016-02-28T13:35:19.732752+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=f23ca834-db04-46e7-b22d-a40fe09e9d95 fwd="131.215.159.28" dyno=web.1 connect=0ms service=10ms status=200 bytes=3985
+2016-02-28T13:35:19.738128+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:35:19 +0000
+2016-02-28T13:35:19.741261+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:35:19.739715+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:35:19.746246+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+2016-02-28T13:36:14.835242+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:36:14.842713+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.8ms)
+2016-02-28T13:36:14.833904+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:36:14 +0000
+2016-02-28T13:36:14.837126+00:00 app[web.1]:   [1m[36mOrder Load (0.8ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:36:14.829070+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=b6407563-5562-431f-ae11-867a1de3c0bc fwd="131.215.159.28" dyno=web.1 connect=1ms service=11ms status=200 bytes=3985
+2016-02-28T13:36:24.791058+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:36:24 +0000
+2016-02-28T13:36:24.795373+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:36:24.793117+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:36:24.803875+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.9ms)
+2016-02-28T13:36:24.789731+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=a074929b-8daf-40fd-80ff-eff65eaba38f fwd="131.215.159.28" dyno=web.1 connect=1ms service=15ms status=304 bytes=357
+2016-02-28T13:36:25.538497+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=570013f7-b7d7-492f-b044-b3e175bbd562 fwd="131.215.159.28" dyno=web.1 connect=1ms service=12ms status=304 bytes=357
+2016-02-28T13:36:25.543152+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:36:25 +0000
+2016-02-28T13:36:25.546214+00:00 app[web.1]:   [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:36:25.544476+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:36:25.552242+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 1.0ms)
+2016-02-28T13:36:37.800188+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=afb13416-83b9-44d7-8558-2b6aa4939818 fwd="131.215.159.28" dyno=web.1 connect=1ms service=13ms status=304 bytes=357
+2016-02-28T13:36:37.814006+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.9ms)
+2016-02-28T13:36:37.805235+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:36:37.803881+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:36:37 +0000
+2016-02-28T13:36:37.807130+00:00 app[web.1]:   [1m[36mOrder Load (0.9ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."status" = $1[0m  [["status", 0]]
+2016-02-28T13:37:03.759658+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=347e62da-72e3-40ca-8103-93e5971a12af fwd="131.215.159.28" dyno=web.1 connect=1ms service=11ms status=304 bytes=357
+2016-02-28T13:37:03.765107+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:37:03 +0000
+2016-02-28T13:37:03.767971+00:00 app[web.1]:   [1m[35mOrder Load (0.9ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:37:03.766401+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:37:03.773736+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.9ms)
+2016-02-28T13:37:04.533658+00:00 app[web.1]: Started GET "/order/get/" for 131.215.159.28 at 2016-02-28 13:37:04 +0000
+2016-02-28T13:37:04.536840+00:00 app[web.1]:   [1m[35mOrder Load (0.8ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."status" = $1  [["status", 0]]
+2016-02-28T13:37:04.534993+00:00 app[web.1]: Processing by OrderController#getRequest as HTML
+2016-02-28T13:37:04.542882+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.8ms)
+2016-02-28T13:37:04.529273+00:00 heroku[router]: at=info method=GET path="/order/get/" host=techport.herokuapp.com request_id=7842dec6-f7ea-4087-923e-9532ec98aa1a fwd="131.215.159.28" dyno=web.1 connect=1ms service=12ms status=304 bytes=357
+2016-02-28T14:12:34.311801+00:00 heroku[web.1]: Idling
+2016-02-28T14:12:34.312606+00:00 heroku[web.1]: State changed from up to down
+2016-02-28T14:12:36.581328+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T14:12:37.230948+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T14:12:37.329290+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 14:12:37 +0000 ===
+2016-02-28T14:12:37.329316+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T14:12:37.969939+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T17:10:46.360864+00:00 heroku[web.1]: Unidling
+2016-02-28T17:10:46.361251+00:00 heroku[web.1]: State changed from down to starting
+2016-02-28T17:10:48.083379+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T17:10:49.773104+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T17:10:49.773130+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T17:10:49.773131+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T17:10:49.773132+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T17:10:49.773153+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T17:10:49.773179+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T17:10:50.980437+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:17157
+2016-02-28T17:10:50.980596+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T17:10:50.984339+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T17:10:50.985628+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T17:10:51.494964+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T17:10:53.446960+00:00 app[web.1]: Started POST "/test_receive" for 54.173.173.41 at 2016-02-28 17:10:53 +0000
+2016-02-28T17:10:53.491222+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T17:10:53.491259+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM06de0523d0238c7c752854b5957ad270", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SM06de0523d0238c7c752854b5957ad270", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg 3 dont break", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM06de0523d0238c7c752854b5957ad270", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T17:10:53.497863+00:00 app[web.1]: 4
+2016-02-28T17:10:53.724770+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T17:10:53.724773+00:00 app[web.1]: +18582618198
+2016-02-28T17:10:53.724776+00:00 app[web.1]: Egg
+2016-02-28T17:10:53.724777+00:00 app[web.1]: 3
+2016-02-28T17:10:53.724777+00:00 app[web.1]: dont break
+2016-02-28T17:10:53.724778+00:00 app[web.1]: Egg 3 dont break
+2016-02-28T17:10:53.743570+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=9e960c59-bd6b-41c6-ae4f-91637df49d52 fwd="54.173.173.41" dyno=web.1 connect=0ms service=313ms status=200 bytes=540
+2016-02-28T17:10:53.744058+00:00 app[web.1]:   [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+2016-02-28T17:10:53.752402+00:00 app[web.1]:   [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+2016-02-28T17:10:53.749756+00:00 app[web.1]:   [1m[35mSQL (0.8ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["phone_number", "+18582618198"], ["message", "Egg 3 dont break"], ["item", "Egg"], ["time_left", 3], ["description", "dont break"], ["status", 0], ["created_at", "2016-02-28 17:10:53.744272"], ["updated_at", "2016-02-28 17:10:53.744272"]]
+2016-02-28T17:10:53.752993+00:00 app[web.1]: Completed 200 OK in 262ms (Views: 0.2ms | ActiveRecord: 7.8ms)
+2016-02-28T17:27:45.963896+00:00 heroku[slug-compiler]: Slug compilation started
+2016-02-28T17:27:45.963904+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-02-28T17:27:45.797453+00:00 heroku[api]: Deploy 75e815b by wijaya@umich.edu
+2016-02-28T17:27:45.797485+00:00 heroku[api]: Release v11 created by wijaya@umich.edu
+2016-02-28T17:27:46.088875+00:00 heroku[web.1]: Restarting
+2016-02-28T17:27:46.089695+00:00 heroku[web.1]: State changed from up to starting
+2016-02-28T17:27:48.022451+00:00 heroku[web.1]: Starting process with command `bundle exec puma -C config/puma.rb`
+2016-02-28T17:27:48.846488+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-02-28T17:27:49.592892+00:00 app[web.1]: [36] Early termination of worker
+2016-02-28T17:27:49.590965+00:00 app[web.1]: [3] - Gracefully shutting down workers...
+2016-02-28T17:27:49.695351+00:00 app[web.1]: [3] === puma shutdown: 2016-02-28 17:27:49 +0000 ===
+2016-02-28T17:27:49.695354+00:00 app[web.1]: [3] - Goodbye!
+2016-02-28T17:27:49.963974+00:00 app[web.1]: [3] Puma starting in cluster mode...
+2016-02-28T17:27:49.963985+00:00 app[web.1]: [3] * Version 3.0.2 (ruby 2.2.4-p230), codename: Plethora of Penguin Pinatas
+2016-02-28T17:27:49.963987+00:00 app[web.1]: [3] * Environment: production
+2016-02-28T17:27:49.963986+00:00 app[web.1]: [3] * Min threads: 5, max threads: 5
+2016-02-28T17:27:49.964027+00:00 app[web.1]: [3] * Preloading application
+2016-02-28T17:27:49.964006+00:00 app[web.1]: [3] * Process workers: 2
+2016-02-28T17:27:50.604635+00:00 heroku[web.1]: Process exited with status 0
+2016-02-28T17:27:51.316213+00:00 heroku[web.1]: State changed from starting to up
+2016-02-28T17:27:51.204936+00:00 app[web.1]: [3] * Listening on tcp://0.0.0.0:35958
+2016-02-28T17:27:51.205105+00:00 app[web.1]: [3] Use Ctrl-C to stop
+2016-02-28T17:27:51.210191+00:00 app[web.1]: [3] - Worker 0 (pid: 6) booted, phase: 0
+2016-02-28T17:27:51.211900+00:00 app[web.1]: [3] - Worker 1 (pid: 10) booted, phase: 0
+2016-02-28T17:30:06.709606+00:00 app[web.1]: Started POST "/test_receive" for 52.90.128.147 at 2016-02-28 17:30:06 +0000
+2016-02-28T17:30:06.770796+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T17:30:06.770882+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SM5b1c74f63206c21d265b3559f9b451de", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SM5b1c74f63206c21d265b3559f9b451de", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg 3 dont break", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SM5b1c74f63206c21d265b3559f9b451de", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T17:30:06.781803+00:00 app[web.1]: 1
+2016-02-28T17:30:07.025969+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=f6eb2901-bc12-4be6-832c-93c3d49634dc fwd="52.90.128.147" dyno=web.1 connect=1ms service=326ms status=200 bytes=491
+2016-02-28T17:30:07.024328+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T17:30:07.024334+00:00 app[web.1]: +18582618198
+2016-02-28T17:30:07.024335+00:00 app[web.1]: 
+2016-02-28T17:30:07.024335+00:00 app[web.1]: 
+2016-02-28T17:30:07.024336+00:00 app[web.1]: 
+2016-02-28T17:30:07.024337+00:00 app[web.1]: Egg 3 dont break
+2016-02-28T17:30:07.024974+00:00 app[web.1]: Completed 200 OK in 254ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2016-02-28T17:31:31.150760+00:00 app[web.1]: Started POST "/test_receive" for 54.172.113.141 at 2016-02-28 17:31:31 +0000
+2016-02-28T17:31:31.155726+00:00 app[web.1]:   Parameters: {"ToCountry"=>"US", "ToState"=>"AL", "SmsMessageSid"=>"SMa885d7399aa093ade8b89674534de148", "NumMedia"=>"0", "ToCity"=>"UNIONTOWN", "FromZip"=>"", "SmsSid"=>"SMa885d7399aa093ade8b89674534de148", "FromState"=>"CA", "SmsStatus"=>"received", "FromCity"=>"", "Body"=>"Egg, 20, dont break them", "FromCountry"=>"US", "To"=>"+13345813776", "ToZip"=>"36786", "NumSegments"=>"1", "MessageSid"=>"SMa885d7399aa093ade8b89674534de148", "AccountSid"=>"ACda0dbb3e4a69dd921381cba51ca4ffa8", "From"=>"+18582618198", "ApiVersion"=>"2010-04-01"}
+2016-02-28T17:31:31.221878+00:00 app[web.1]:   [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+2016-02-28T17:31:31.202776+00:00 app[web.1]:   [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+2016-02-28T17:31:31.154913+00:00 app[web.1]: Processing by TestsController#receive as */*
+2016-02-28T17:31:31.156370+00:00 app[web.1]: 3
+2016-02-28T17:31:31.217863+00:00 app[web.1]:   [1m[35mSQL (4.3ms)[0m  INSERT INTO "orders" ("phone_number", "message", "item", "time_left", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["phone_number", "+18582618198"], ["message", "Egg, 20, dont break them"], ["item", "Egg"], ["time_left", 20], ["description", " dont break them"], ["created_at", "2016-02-28 17:31:31.202953"], ["updated_at", "2016-02-28 17:31:31.202953"]]
+2016-02-28T17:31:31.447094+00:00 heroku[router]: at=info method=POST path="/test_receive" host=techport.herokuapp.com request_id=bc5fca2a-2237-4099-b1db-c2a671cbc4bb fwd="54.172.113.141" dyno=web.1 connect=1ms service=295ms status=200 bytes=491
+2016-02-28T17:31:31.440533+00:00 app[web.1]: Sent message to +18582618198
+2016-02-28T17:31:31.440542+00:00 app[web.1]: +18582618198
+2016-02-28T17:31:31.440543+00:00 app[web.1]: Egg
+2016-02-28T17:31:31.440544+00:00 app[web.1]:  20
+2016-02-28T17:31:31.440545+00:00 app[web.1]:  dont break them
+2016-02-28T17:31:31.440546+00:00 app[web.1]: Egg, 20, dont break them
+2016-02-28T17:31:31.441001+00:00 app[web.1]: Completed 200 OK in 285ms (Views: 0.2ms | ActiveRecord: 15.8ms)
