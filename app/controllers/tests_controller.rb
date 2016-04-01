@@ -72,7 +72,7 @@ class TestsController < ApplicationController
 		auth_token = ENV['auth_token']
 		client = Twilio::REST::Client.new account_sid, auth_token
 
-		from = ENV['from_time']
+		from = ENV['from_number']
 
 
 		# friends.each do |key, value|
